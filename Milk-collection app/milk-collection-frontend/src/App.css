@@ -1,0 +1,31 @@
+.dashboard-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px !important;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-3px);
+  transition: 0.3s;
+}
+.btn:hover {
+  opacity: 0.85;
+}
+input:focus {
+  border-color: #007bff !important;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.6) !important;
+}
+.table-responsive::-webkit-scrollbar {
+  height: 6px;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 10px;
+}
+.table th, .table td {
+  vertical-align: middle !important;
+}
